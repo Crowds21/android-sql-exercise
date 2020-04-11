@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="db_key">
+        <item>id</item>
+        <item>name</item>
+        <item>salary</item>
+        <item>depart</item>
+    </string-array>
+</resources>
