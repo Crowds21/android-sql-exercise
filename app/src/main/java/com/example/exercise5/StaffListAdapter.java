@@ -45,7 +45,6 @@ public class StaffListAdapter extends ArrayAdapter<ComponentStaffList> {
     @Override
     public View getView(final int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         //获取当前组成ListView的实例
-        //View item=super.getView(position, convertView, parent);//父类方法返回的View相当于单个item控件
 
         staffListCard = getItem(position);
         View view = null;
@@ -90,8 +89,6 @@ public class StaffListAdapter extends ArrayAdapter<ComponentStaffList> {
         });
         return view;
     }
-
-
 
     class ViewHolder{
         ImageView imageBody;

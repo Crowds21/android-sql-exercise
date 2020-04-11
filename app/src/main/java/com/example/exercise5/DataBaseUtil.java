@@ -10,6 +10,7 @@ import android.widget.Toast;
 import java.util.List;
 
 public class DataBaseUtil {
+
     //删除特定行
     public static void  deleteSpecificRow(Context context,SQLiteOpenHelper dbHelper,
                                           String column, String value){
@@ -20,7 +21,7 @@ public class DataBaseUtil {
         Toast.makeText(context, "Success!", Toast.LENGTH_SHORT).show();
     }
 
-    //查询特定数据
+    //查询特定行
     public static List<ComponentStaffList>  querySpecificRow(List<ComponentStaffList> displayCards,
                                                       SQLiteOpenHelper dbHelper,
                                                       String column, String value){
